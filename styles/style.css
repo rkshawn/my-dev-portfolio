@@ -180,3 +180,29 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+
+/*footer related styles*/
+
+.footer-content{
+  display: flex;
+  background: #FFF8F3;
+  margin-top: 100px;
+  padding: 130px 150px;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"],
+ textarea {
+  display: block;
+  padding: 18px 30px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+}
+.social-links img{
+  margin-left: 24px;
+}
